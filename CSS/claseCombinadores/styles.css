@@ -1,0 +1,15 @@
+.combinadorAdj h2 + p {
+   color:red; 
+}
+
+.combinadorGeneral h2 ~ p{
+   color:blue;
+}
+
+.combinadorHijo div > p {
+   color:goldenrod;
+}
+/*combinador descendiente*/
+div p {
+   color: red;
+}
