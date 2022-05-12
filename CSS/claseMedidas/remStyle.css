@@ -1,3 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html { /*seteo de medida rem para que siempre sea equivalente a 10px*/
+    font-size: 62.5%;
+}
 p {
-    font-size: 1rem;
+    font-size: 1.6rem;
+}
+
+main div {
+    font-size: 1.6rem;
 }
