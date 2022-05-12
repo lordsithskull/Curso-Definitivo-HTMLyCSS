@@ -3,6 +3,15 @@
     width:600px;
     height: 500px
 } */
+
+/* body{
+    font-size: 20px;
+} */
 .text-container {
-    font-size: 16px;
+    font-size: 1.5em;
+    /*los em toma el tamaño de fuente directo del contenedor padre*/
+}
+.text-container div{
+    font-size: 1.5em;
+    /*los em toma el tamaño de fuente directo del contenedor padre*/
 }
