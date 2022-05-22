@@ -39,10 +39,11 @@ body{
 figure{
     width: 100%;
     border: 2px black dotted;
+    display: inline-block;
 }
 
 .img_principal {
-    width: 35%;
+    width: 25%;
 }
 .img_secundaria{
     width: 65%;
