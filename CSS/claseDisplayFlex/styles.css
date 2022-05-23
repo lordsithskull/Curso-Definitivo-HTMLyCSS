@@ -12,26 +12,36 @@ body{
 .container{
     border: 0.3rem solid black;
     display: flex;
+    flex-wrap: wrap; 
+    flex-grow:1;
 }
 .box{
-    width: 10rem;
+    
     height: 10rem;   
+    flex-basis: 10rem;
 }
 .box1 {
-    background-color: blue;   
+    background-color: blue;
+    
+    
 }
 .box2{ 
     background-color: blueviolet;   
+    
+    
 }
 .box3 {
     background-color: burlywood;   
+    
 }
 .box4 {
     background-color: cadetblue;   
 }
 .box5{
     background-color: coral;   
+    
 }
 .box6 {
     background-color: salmon;   
+    
 }
